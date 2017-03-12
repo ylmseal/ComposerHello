@@ -1,0 +1,20 @@
+{
+  	"name": "Composer/Hello",
+  	"description": "The Composer Hello.",
+  	"keywords": ["Composer", "Hello"],
+  	"license": "MIT",
+  	"type": "library",
+  	"require": {
+  		"php": ">=5.6.4"
+  	},
+  	"autoload": {
+  		"psr-4": {
+  			"ComposerHello\\": "src/"
+  		}
+  	},
+  	"autoload-dev": {
+  		"psr-4": {
+  			"Tests\\": "tests/"
+  		}
+  	}
+}
